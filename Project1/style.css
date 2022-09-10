@@ -260,4 +260,65 @@ html, body {
         width: 100px;
         margin: 0 10px;
     }
+
+    #hero {
+        flex-direction: column;
+    }
+
+    #hero #left {
+        width: 100%;
+        padding: 10vw 3vw;
+        min-height: initial;
+    }
+
+    #left h1 {
+        font-size: 9vw;
+    }
+
+    #left p {
+        margin-top: 20px;
+    }
+
+    #center {
+        width: 100%;
+        min-height: 50vh;
+    }
+
+    #center #tomb {
+        width: 65%;
+        min-height: 50vh;
+    }
+
+    #tomb #photo {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    #center #tomb img {
+        height: 60vh;
+    }
+
+    #tomb #capsule {
+        right: -15%;
+        top: 10%;
+        width: 60%;
+        height: 10.2vw;
+    }
+
+    #right {
+        margin-bottom: 30px;
+        width: 100%;
+        margin-top: 20vw;
+        min-height: initial;
+    }
+
+    #rbottom {
+        width: 100%;
+        position: static;
+        bottom: initial;
+    }
+
+    #textcap h4 {
+        font-size: 3vw;
+    }
 }
